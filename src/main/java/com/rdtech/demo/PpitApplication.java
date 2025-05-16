@@ -20,6 +20,10 @@ public class PpitApplication {
     public String welcome() {
         return "Welcome to our REST API service!";
     }
+    @GetMapping("/welcome")
+    public String welcome1() {
+        return "Welcome to our REST API service!";
+    }
 
     
     @GetMapping("/greet/{name}")
