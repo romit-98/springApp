@@ -18,7 +18,7 @@ public class PpitApplication {
     
     @GetMapping("/welcome")
     public String welcome() {
-        return "Welcome to our REST API service!!";
+        return "Welcome to our REST API service!";
     }
 
     
